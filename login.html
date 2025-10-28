@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GABIFLIX - entrar</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <div class="overley"></div>
+
+    <header>
+        <a href="index.html" class="logo">
+            <img src="img/Gemini_Generated_Image_647udw647udw647u.png" alt="logo">
+
+        </a>
+    </header>
+    <div class="login-container">
+        <h1>Entrar</h1>
+        <form>
+            <div class="form-group">
+                <input type="text" name="email" id="email" placeholder="email ou numero de telefone" required>
+
+                <div class="form-group">
+                    <input type="password" name="senha" id="senha" placeholder="senha de acesso" required>
+
+                </div>
+                <button type="button" onclick="entrar()">entrar</button>
+            </div class="help">
+            <div class="remember">
+                <input type="checkbox" id="remember">
+                <label for="remember">Lembre-se de mim</label>
+            </div>
+            <a href="#">Precisa de ajuda?</a>
+
+
+            <div class="signup">
+                <p> novo por aqui? <a href="#"> Assine agora</a></p>
+            </div>
+            <div class="captcha">
+                <p> esta pagina é protegida pelo google reCAPTCHA para garatir que voce nao é um robo</p>
+                <a href="#"> saiba mais </a>
+            </div>
+        </form>
+       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="js/js.main.js"></script>
+    </div>
+</body>
+
+</html>
